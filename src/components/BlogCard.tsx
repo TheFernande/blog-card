@@ -37,7 +37,9 @@ const BlogCard: React.FC<BlogCardProps> = ({
           </h2>
         </div>
         <div className="flex flex-col gap-6 w-full h-fit">
-          <p className="text-neutral-600 text-base line-clamp-2">{excerpt}</p>
+          <p className="text-neutral-600 text-base line-clamp-2 font-medium">
+            {excerpt}
+          </p>
           <button className="flex items-center gap-[6px] text-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-offset-2 rounded">
             <span className="size-fit text-base font-medium">Read more</span>
             <ArrowRight className="size-5" />
